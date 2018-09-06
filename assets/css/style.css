@@ -1,0 +1,372 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clr{
+	clear: both;
+}
+h1,h2,h3,h4,h5,h6,p{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+li{
+	
+    text-align: left;
+}
+.main-content{
+ /* background: url(../images/background1.jpg);*/
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+	font-family: Roboto;
+}
+/*header-top css satrt*/
+.header-top{
+	padding: 40px 0px;
+}
+.logo{
+	float: left;
+}
+.logo img{}
+.top-social{
+	float: right;
+}
+.top-socials{
+	display: none;
+}
+.top-social img{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+}
+
+/*banner css satrt*/
+.banner{
+  	background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px 0px;
+}
+.banner-content{}
+.banner-content h1{
+	font-size: 42px;
+	font-weight: 900;
+	color: #ffffff;
+	line-height: 1.5em;
+}
+.banner-content h2{
+	font-size: 26px;
+	font-weight: 900;
+	color: #6B796B;
+	padding-bottom: 40px;
+}
+.banner-video{
+	margin-bottom: -100px;
+}
+/*service-one css start*/
+.service-one{
+	padding: 160px 0px 100px;
+}
+.service-top{
+	margin-bottom: 50px;
+}
+.service-top h2{
+	font-size: 50px;
+	font-weight: 900;
+	background: #84B231;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #F7FBFF;
+	border-radius: 10px;
+}
+.service-one-iteams{}
+.service-one-iteam{}
+.service-one-iteam img{
+	width: 60px;
+	height: 60px;
+}
+.service-one-iteam p{
+	max-width: 300px;
+	margin: 0 auto;
+	font-size: 18px;
+	color: #080408;
+	padding-top: 30px;
+}
+/*protfolio css start*/
+.protfolio{
+	background: #84B239;
+}
+.protfolio-overlay{
+	background: url(../images/protfolio.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px 0px 40px;
+
+}
+.protfolio-contet{}
+.protfolio-contet img{
+	margin: 0 auto;
+}
+.protfolio-contet p{
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 10px;
+
+}
+/*services-bootom css start*/
+.services-bootom{
+	background: url(../images/protfolio.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px 0px 40px;
+    background-position: 100% 735%;
+}
+.services-top{}
+.services-top h2{
+	font-weight: 700;
+	font-size: 40px;
+	color: #8CB239;
+	padding-top: 30px;
+}
+.services-top h3{
+	color: #636563;
+	font-weight: 700;
+	font-size: 40px;
+	padding: 20px 0px;
+}
+.services-bottom-iteams{}
+.services-iteam{
+	margin-bottom: 30px;
+}
+.sr-bt-img{}
+.sr-bt-img img{
+	width: 200px;
+	height: 200px;
+}
+.sr-bt-content{}
+.sr-bt-content h3{
+	color: #84B239;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+.sr-bt-content p{
+	font-size: 25px;
+	padding: 10px 0px 0px;
+	color: #000000;
+}
+.sr-bt-content a{
+	float: right;
+	font-size: 40px;
+	color: #000000;
+}
+.sr-bt-content a small{
+	font-size: 20px;
+}
+/*middel-title css start*/
+.middel-title{
+	background: #F7FBE7;
+	padding: 30px 0px;
+}
+.middel-title h2{
+	font-size: 50px;
+	font-weight: 700;
+	background: #84B231;
+	padding: 20px 30px;
+	display: inline-block;
+	color: #F7FBFF;
+	border-radius: 10px;
+}
+/*info-all css start*/
+.info-all{
+	background: url(../images/info-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px 0px 60px;
+	background-position: center;
+}
+.content-info{}
+.info-all h2{
+	font-size: 40px;
+	font-weight: bold;
+	color: #6B696B;
+	text-align: center;
+	padding-bottom: 30px;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.info-all h2 span{
+	color: #8CB239;
+}
+.info-contets{
+	padding: 60px 0px 40px;
+}
+.info-contets h3{
+	font-size: 30px;
+	font-weight: 800;
+	color: #000000;
+	line-height: 2em
+}
+.info-contets p{
+	font-size: 23px;
+	max-width: 500px;
+	color: #000000;
+}
+/*bottom-logo css start*/
+.bottom-logo{
+	background: #DEDBDE;
+	padding: 50px 0px;
+}
+.bootm-content{}
+.bootm-content img{}
+.bootm-content h2{
+	font-size: 30px;
+	font-weight: 800;
+	color: #000000;
+	padding-top: 20px;
+}
+footer{
+	background: #FFFB52;
+}
+footer h3{
+	color: #000000;
+	font-size: 30px;
+	font-weight: 800;
+	padding: 20px;
+}
+.banner{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 3s;
+}
+.service-one{
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 4s;
+}
+.protfolio-iteams{
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 5s;
+}
+.services-bottom-iteams{
+  -webkit-animation-duration: 9s;
+  -webkit-animation-delay: 6s;
+}
+.content-info{
+  -webkit-animation-duration: 9s;
+  -webkit-animation-delay: 7s;
+}
+
+.bootm-content{
+  -webkit-animation-duration: 9s;
+  -webkit-animation-delay: 8s;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
